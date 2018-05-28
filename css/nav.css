@@ -95,10 +95,22 @@ a {
     width:1000px;
     float:right;
 }
+.nav-box2 .nav .nav-content .nav-right ul {
+    width:572px;
+    float:right;
+}
 .nav-box2 .nav .nav-content .nav-right li {
     float:left;
     height:75px;
     font-size:16px;
     line-height: 75px;
     margin:0 20px;
+    font-weight: bold;
+}
+.nav-box2 .nav .nav-content .nav-right li:last-child {
+    margin-right: 0;
+}
+.nav-box2 .nav .nav-content .nav-right li.on a,
+.nav-box2 .nav .nav-content .nav-right li a:hover {
+    color:#0041B3;
 }
